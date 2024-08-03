@@ -1,0 +1,29 @@
+App:
+  Name: "invoice-item-service"
+  Version: "0.0.1"
+  Scheme: "http"
+  Host: "localhost:3002"
+  Environment: local
+
+Server:
+  Port: "3002"
+  Debug: true
+  TimeZone: "Asia/Jakarta"
+Database:
+  Host: "localhost"
+  Port: "3306"
+  DBName: "invoice-item-service"
+  UserName: "root"
+  Password: "pwd"
+  Debug: false
+  Pool:
+    Idle: 10
+    Max: 100
+    Lifetime: 300
+ElasticSearch:
+  Host: "http://localhost:9200"
+  UserName: "elastic"
+  Password: "pwd"
+  Index: "invoice"
+  MaxTimeOut: 30
+  Debug: true # SET TO TRUE if you want to auto create index ES
