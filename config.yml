@@ -10,11 +10,11 @@ Server:
   Debug: true
   TimeZone: "Asia/Jakarta"
 Database:
-  Host: "localhost"
-  Port: "3306"
+  Host: "local-dafailyasa25-d4cb.e.aivencloud.com"
+  Port: "20291"
   DBName: "invoice-item-service"
-  UserName: "root"
-  Password: "pwd"
+  UserName: "avnadmin"
+  Password: "AVNS_zx5eWFZXvnHCQGOs9C3"
   Debug: false
   Pool:
     Idle: 10

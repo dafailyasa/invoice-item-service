@@ -34,4 +34,4 @@ migrate-down:
 ## run: run the app
 .PHONY: run
 run:
-	go ./cmd/main.go
+	go run ./cmd/main.go

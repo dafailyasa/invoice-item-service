@@ -23,7 +23,7 @@ func MapToElasticInvoiceEntity(i *Invoice) *ElasticInvoice {
 		ItemCount:   i.ItemCount,
 		Subject:     i.Subject,
 		Customer:    i.Customer.Name,
-		Status:      i.Subject,
+		Status:      i.Status,
 		TotalAmount: i.TotalAmount,
 	}
 }
